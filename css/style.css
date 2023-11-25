@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
+/* GENERICS----------------------------- */
+header {
+    background-color: violet;
+}
 
-/* GENERICS */
 .debug {
     border: 2px dashed black;
 }
 
-body {
-    background-color: violet;
+.debug1 {
+    border: 2px dashed white;
 }
 
-/* HEADER */
+/* HEADER ----------------------------------------*/
 nav {
     margin: 0 15%;
     height: 50px;
@@ -99,4 +102,48 @@ nav {
     height: 80%;
     width: 70%;
     background-color: green;
+}
+
+/* FOOTER ---------------------------------------*/
+.footer-container1 {
+    height: 400px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.footer-content1 {
+    width: 30%;
+    height: calc(100% - 20px);
+    background-color: salmon;
+}
+
+.footer-content2{
+    width: 10%;
+    height: calc(100% - 20px);
+    background-color: seagreen;
+}
+
+.footer-container2 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid grey;
+    background-color: black;
+}
+
+.footer-content3 {
+    width: 70%;
+    height: 80%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    background-color: pink;
 }
